@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:mysql://rm-bp149d70aowb5164y0o.mysql.rds.aliyuncs.com:3306/datawhale_homepage</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="datawhale_homepage_test" uuid="4949f2b7-5eab-47d8-a3e0-37d9788aa926">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-bp149d70aowb5164y0o.mysql.rds.aliyuncs.com:3306/hub_test?useSSL=false&amp;serverTimezone=UTC&amp;useLegacyDatetimeCode=false</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
